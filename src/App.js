@@ -4,16 +4,20 @@ import Home from './components/pages/Home';
 import Contact from './components/pages/Contact';
 import Projects from './components/pages/Projects';
 import Footer from './components/Footer';
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
+
 
 function App() {
   return (
-      <div>
+    <Router>
         <Header />
-        <Home />
-        <Projects />
-        <Contact />
+        <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="projects" element={<Projects />}/>
+        <Route path="contact" element={<Contact />} />
+        </Routes>
         <Footer />
-      </div>
+      </Router>
   );
 }
 
