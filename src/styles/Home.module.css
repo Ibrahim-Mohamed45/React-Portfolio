@@ -1,0 +1,58 @@
+.homePage {
+    position: "relative";
+}
+
+.title {
+  display: block;
+  padding: 0.75rem;
+  padding-bottom: 20vh;
+  text-align: center;
+  height: 100%;
+}
+
+.title h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.title p {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.devices {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about {
+    background-color: #6e07f3;
+    color: white;
+    text-align: center;
+}
+
+.about h2 {
+    padding-top: 4vh;
+    margin-block-start: 0em;
+}
+
+.about p {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .devices {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+ .title {
+ padding-bottom: 10vh;
+    }
+}
