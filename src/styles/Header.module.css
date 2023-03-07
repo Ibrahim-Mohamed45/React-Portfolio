@@ -1,0 +1,26 @@
+.navbar {
+  border-bottom: 2px solid #6e07f3;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navbar :hover {
+  color: #6e07f3;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.active {
+  color: #6e07f3;
+}
+
+.inactive {
+  color: black;
+}
