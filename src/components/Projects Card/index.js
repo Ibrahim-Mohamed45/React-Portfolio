@@ -1,22 +1,19 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function ProjectsCard() {
+function ProjectsCard(props) {
   return (
 <div className="row">
 <div className="col-lg-4 col-sm-12">
-    <h3>Project Title</h3>
+    <h3>{props.title}</h3>
     <div>
-      <p className="mb-4">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-      Eget est lorem ipsum dolor sit amet consectetur adipiscing elit. Senectus et netus et malesuada fames ac turpis egestas sed. 
-      </p>
+      <p className="mb-4">{props.description}</p>
     </div>
     <a
       rel="noreferrer"
       target="_blank"
       className="btn btn-outline-primary"
-      href="#"
+      href={props.live}
     >
       See Live
     </a>
@@ -24,17 +21,17 @@ function ProjectsCard() {
       rel="noreferrer"
       target="_blank"
       className="btn btn-outline-success"
-      href="#"
+      href={props.github}
     >
       Source Code
     </a>
 </div>
 <div className="col-lg-8 col-sm-12">
-    <a rel="noreferrer" href="#!" target="_blank">
+    <a rel="noreferrer" href={props.live} target="_blank">
         <img
-          alt="Project Image"
+          alt= {props.title}
           className="img-fluid"
-          src="assets/project.jpg"
+          src= {props.image}
         />
     </a>
   </div>

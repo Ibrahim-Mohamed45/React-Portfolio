@@ -1,44 +1,50 @@
 [
     {
       "id": 1,
-      "Title": "Find My Band",
-      "image": "#",
-      "Github": "https://github.com/Ibrahim-Mohamed45/Find-My-Band",
-      "Deployment": "https://jayclay922.github.io/Find-My-Band/index.html"
+      "title": "Find My Band",
+      "description": "This application finds out if your favourite musician/artist/band is having a concert near you and how to get there.",
+      "image": "../src/images/Project-1.png",
+      "github": "https://github.com/Ibrahim-Mohamed45/Find-My-Band",
+      "live": "https://jayclay922.github.io/Find-My-Band/index.html"
     },
     {
       "id": 2,
-      "Title": "Weather Dashboard",
-      "image": "#",
-      "Github": "https://github.com/Ibrahim-Mohamed45/Weather-Forecast-Dashboard",
-      "Deployment": "https://ibrahim-mohamed45.github.io/Weather-Forecast-Dashboard/"
+      "title": "Weather Dashboard",
+      "description": "This application is a weather dashboard that allows users to check the current weather for an inputted city as well as a 5 day forecast.",
+      "image": "../src/images/Project-2.png",
+      "github": "https://github.com/Ibrahim-Mohamed45/Weather-Forecast-Dashboard",
+      "live": "https://ibrahim-mohamed45.github.io/Weather-Forecast-Dashboard/"
     },
     {
         "id": 3,
-        "Title": "Rock Paper Scissors",
-        "image": "#",
-        "Github": "https://github.com/Ibrahim-Mohamed45/Rock-Paper-Scissors",
-        "Deployment": "https://ibrahim-mohamed45.github.io/Rock-Paper-Scissors/"
+        "title": "Rock Paper Scissors",
+        "description": "This application is a rock paper scissors game where you play against the computer and the first to score 5 points wins.",
+        "image": "../src/images/Project-3.png",
+        "github": "https://github.com/Ibrahim-Mohamed45/Rock-Paper-Scissors",
+        "live": "https://ibrahim-mohamed45.github.io/Rock-Paper-Scissors/"
       },
       {
         "id": 4,
-        "Title": "Timed Code Quiz",
-        "image": "#",
-        "Github": "https://github.com/Ibrahim-Mohamed45/Timed-Code-Quiz",
-        "Deployment": "https://ibrahim-mohamed45.github.io/Timed-Code-Quiz/"
+        "title": "Timed Code Quiz",
+        "description": "This application is a timed coding quiz with multiple-choice questions on javascript.",
+        "image": "../src/images/Project-4.png",
+        "github": "https://github.com/Ibrahim-Mohamed45/Timed-Code-Quiz",
+        "live": "https://ibrahim-mohamed45.github.io/Timed-Code-Quiz/"
       },
     {
       "id": 5,
-      "Title": "Work Day Scheduler",
-      "image": "#",
-      "Github": "https://github.com/Ibrahim-Mohamed45/Work-Day-Scheduler",
-      "Deployment": "https://ibrahim-mohamed45.github.io/Work-Day-Scheduler/"
+      "title": "Work Day Scheduler",
+      "description": "This application is a simple calendar app that allows the user to save events for each hour of the work day.",
+      "image": "../src/images/Project-5.png",
+      "github": "https://github.com/Ibrahim-Mohamed45/Work-Day-Scheduler",
+      "live": "https://ibrahim-mohamed45.github.io/Work-Day-Scheduler/"
     },
     {
       "id": 6,
-      "Title": "Password Generator",
-      "image": "#",
-      "Github": "https://github.com/Ibrahim-Mohamed45/Password-Generator",
-      "Deployment": "https://ibrahim-mohamed45.github.io/Password-Generator/"
+      "title": "Password Generator",
+      "description": "This application creates a randomly generated password based on the criteria that a user provides when prompted and display the password on a webpage.",
+      "image": "../src/images/Project-6.png",
+      "github": "https://github.com/Ibrahim-Mohamed45/Password-Generator",
+      "live": "https://ibrahim-mohamed45.github.io/Password-Generator/"
     }
   ]
