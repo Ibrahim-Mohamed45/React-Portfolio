@@ -1,10 +1,12 @@
 import React from 'react';
+import ProjectsCard from '../Projects Card';
 
 function Projects() {
   return (
-    <div>
+    <section>
       <h1>Projects page</h1>
-    </div>
+      <ProjectsCard/>
+    </section>
   );
 }
 
