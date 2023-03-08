@@ -1,0 +1,95 @@
+.header {
+    font-weight: 800; 
+    text-align: center; 
+    font-size: xxx-large;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+.row {
+  margin: 0 !important;
+  margin-bottom: 2em !important;
+  text-align: center;
+}
+
+:active,
+:hover,
+:focus {
+  outline: 0 !important;
+  outline-offset: 0;
+}
+::before,
+::after {
+  position: absolute;
+  content: "";
+}
+
+.button {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 0px 10px 15px;
+  min-width: 150px;
+}
+.button a {
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 20px;
+  transition: 0.3s;
+}
+
+/*--- btn-2 ---*/
+.btn-1::before {
+  background-color: #6e07f3;
+  transition: 0.3s ease-out;
+}
+.btn-1 a {
+  border: 2px solid #6e07f3;
+  transition: 0.2s;
+}
+
+.btn-1 a {
+  color: #6e07f3;
+}
+
+.btn-1 a:hover {
+  color: white;
+}
+
+.btn-1 a:hover {
+  transition: 0.2s 0.1s;
+}
+/* hover-slide-right */
+.button.hover-slide-right::before {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 0%;
+}
+.button.hover-slide-right:hover::before {
+  width: 100%;
+}
+
+.other {
+  color: #6e07f3;
+  margin-left: 10px;
+  font-weight: bolder;
+}
+
+a:hover {
+  color: #5be9b9;
+}
