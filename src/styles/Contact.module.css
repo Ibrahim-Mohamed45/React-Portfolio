@@ -1,0 +1,146 @@
+.contact {
+  width: 100%;
+  background: #6e07f3;
+}
+
+.padding {
+    padding-top: 3%;
+}
+
+button :before {
+    position: static !important;
+}
+
+button :after {
+    position: static !important;
+}
+
+.btnCV {
+    display: block;
+    margin: auto;
+    margin-bottom: 3%;
+    font-size: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+}
+
+.btnCV i{
+    padding-left: 10px;
+}
+
+a :hover{
+    background-color: #5be9b9;
+}
+
+.formDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 8%;
+}
+
+form {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 4vw;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+form h3 {
+  color: #555;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+form input,
+form textarea {
+  border: 0;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  background: #f5f5f5;
+  font-size: 16px;
+}
+
+form button {
+  padding: 15px;
+  background: #5be9b9;
+  color: black;
+  font-size: 18px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  margin: 20px auto 0;
+  border-radius: 30px;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    width: 25% !important;
+}
+
+.hidden {
+    display: none;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.socials ul li {
+    margin-bottom: 80px;
+}
+
+.socials ul li a {
+    color: white;
+}
+
+.socials ul li :hover{
+    color: #5be9b9;
+}
+
+.socials i {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 991px) {
+    .padding {
+        padding-top: calc(3% + 1em);
+    }
+
+    .hidden {
+        display: inline;
+    }
+
+    .display {
+        width: 100% !important;
+    }
+
+    .socials ul {
+        display: flex;
+        justify-content: space-evenly;
+        width: 98vw;
+    }
+
+    .socials ul li {
+        margin-bottom: 50px;
+    }
+
+    .contactMe {
+        display: none !important;
+    }
+}
