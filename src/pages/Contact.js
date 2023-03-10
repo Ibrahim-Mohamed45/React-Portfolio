@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "../../styles/Contact.module.css";
-import cv from "../../CV.pdf";
+import styles from "../styles/Contact.module.css";
+import cv from "../data/CV.pdf";
 
 function Contact() {
   return (
@@ -24,7 +24,7 @@ function Contact() {
                 <a
                   href="https://www.linkedin.com/in/ibrahim-mohamed-15ab4221a/"
                   target="_blank"
-                  rel="noopener"
+                  rel="noreferrer"
                 >
                   LinkedIn
                   <i
@@ -37,7 +37,7 @@ function Contact() {
                 <a
                   href="https://github.com/Ibrahim-Mohamed45"
                   target="_blank"
-                  rel="noopener"
+                  rel="noreferrer"
                 >
                   GitHub
                   <i className="fa fa-github" style={{ fontSize: "36px" }}></i>
@@ -48,7 +48,7 @@ function Contact() {
                   href="mailto:ibrahim.mohamed1218@gmail.com"
                   target="_blank"
                   className={styles.hidden}
-                  rel="noopener"
+                  rel="noreferrer"
                 >
                   Email me
                   <i
@@ -62,7 +62,7 @@ function Contact() {
                   href="tel:+447939809870"
                   className={styles.hidden}
                   target="_blank"
-                  rel="noopener"
+                  rel="noreferrer"
                 >
                   Call me
                   <i className="fa fa-phone" style={{ fontSize: "36px" }}></i>
@@ -98,7 +98,7 @@ function Contact() {
                 <a
                   href="mailto:ibrahim.mohamed1218@gmail.com"
                   target="_blank"
-                  rel="noopener"
+                  rel="noreferrer"
                 >
                   Email me
                   <i
@@ -108,7 +108,7 @@ function Contact() {
                 </a>
               </li>
               <li>
-                <a href="tel:+447939809870" target="_blank" rel="noopener">
+                <a href="tel:+447939809870" target="_blank" rel="noreferrer">
                   Call me
                   <i className="fa fa-phone" style={{ fontSize: "36px" }}></i>
                 </a>

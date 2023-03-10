@@ -1,11 +1,11 @@
 import React from "react";
-import Avatar from "../../images/Ibrahim-Avatar.png";
-import Devices from "../../images/devices.png";
-import styles from "../../styles/Home.module.css";
+import Avatar from "../images/Ibrahim-Avatar.png";
+import Devices from "../images/devices.png";
+import styles from "../styles/Home.module.css";
 
 function Home() {
   return (
-    <div className={styles.homePage}>
+    <section className={styles.homePage}>
       <div className={styles.title}>
         <h1>Ibrahim Mohamed</h1>
         <p>Frontend Developer</p>
@@ -25,17 +25,17 @@ function Home() {
         </p>
         <h2>My skills:</h2>
         <div className={styles.skills}>
-          <img src={require("../../images/html.png")} alt="HTML logo" />
-          <img src={require("../../images/css.png")} alt="CSS logo" />
-          <img src={require("../../images/bootstrap.png")} alt="Git logo" />
-          <img src={require("../../images/tailwind.png")} alt="Git logo" />
-          <img src={require("../../images/js.png")} alt="JavaScript logo" />
-          <img src={require("../../images/react.png")} alt="React logo" />
-          <img src={require("../../images/jquery.png")} alt="Jquery logo" />
-          <img src={require("../../images/git.png")} alt="Git logo" />
+          <img src={require("../images/html.png")} alt="HTML logo" />
+          <img src={require("../images/css.png")} alt="CSS logo" />
+          <img src={require("../images/bootstrap.png")} alt="Git logo" />
+          <img src={require("../images/tailwind.png")} alt="Git logo" />
+          <img src={require("../images/js.png")} alt="JavaScript logo" />
+          <img src={require("../images/react.png")} alt="React logo" />
+          <img src={require("../images/jquery.png")} alt="Jquery logo" />
+          <img src={require("../images/git.png")} alt="Git logo" />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -4,33 +4,33 @@
 }
 
 .padding {
-    padding-top: 3%;
+  padding-top: 3%;
 }
 
 button :before {
-    position: static !important;
+  position: static !important;
 }
 
 button :after {
-    position: static !important;
+  position: static !important;
 }
 
 .btnCV {
-    display: block;
-    margin: auto;
-    margin-bottom: 3%;
-    font-size: 24px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: white;
+  display: block;
+  margin: auto;
+  margin-bottom: 3%;
+  font-size: 24px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
 }
 
-.btnCV i{
-    padding-left: 10px;
+.btnCV i {
+  padding-left: 10px;
 }
 
-a :hover{
-    background-color: #5be9b9;
+a :hover {
+  background-color: #5be9b9;
 }
 
 .formDiv {
@@ -80,67 +80,67 @@ form button {
 }
 
 .display {
-    display: flex;
-    justify-content: center;
-    width: 25% !important;
+  display: flex;
+  justify-content: center;
+  width: 25% !important;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 .socials {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .socials ul {
-    list-style: none;
-    padding-left: 0;
+  list-style: none;
+  padding-left: 0;
 }
 
 .socials ul li {
-    margin-bottom: 80px;
+  margin-bottom: 80px;
 }
 
 .socials ul li a {
-    color: white;
+  color: white;
 }
 
-.socials ul li :hover{
-    color: #5be9b9;
+.socials ul li :hover {
+  color: #5be9b9;
 }
 
 .socials i {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 991px) {
-    .padding {
-        padding-top: calc(3% + 1em);
-    }
+  .padding {
+    padding-top: calc(3% + 1em);
+  }
 
-    .hidden {
-        display: inline;
-    }
+  .hidden {
+    display: inline;
+  }
 
-    .display {
-        width: 100% !important;
-    }
+  .display {
+    width: 100% !important;
+  }
 
-    .socials ul {
-        display: flex;
-        justify-content: space-evenly;
-        width: 98vw;
-    }
+  .socials ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 98vw;
+  }
 
-    .socials ul li {
-        margin-bottom: 50px;
-    }
+  .socials ul li {
+    margin-bottom: 50px;
+  }
 
-    .contactMe {
-        display: none !important;
-    }
+  .contactMe {
+    display: none !important;
+  }
 }

@@ -10,6 +10,10 @@
   padding-inline-start: 0px;
 }
 
+.navbar ul li {
+  font-size: large;
+}
+
 .navbar :hover {
   color: #6e07f3;
 }
