@@ -39,6 +39,8 @@
   padding-top: 4vh;
   margin-block-start: 0em;
   margin-bottom: 4vh !important;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .about p {

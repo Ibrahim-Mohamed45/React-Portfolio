@@ -54,6 +54,7 @@ Contact me if you have any questions!
 ## Credits
 - <a href="https://iconscout.com/icons" target="_blank"> Icon Scout</a>
 - <a href="https://shields.io/" target="_blank"> Shields.io</a>
+- <a href="https://formsubmit.co/" target="_blank"> FormSubmit</a>
 
 ## Contributing
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.

@@ -79,6 +79,7 @@ function Contact() {
             >
               <h3>GET IN TOUCH</h3>
               <input type="hidden" name="_subject" value="New submission!" />
+              <input type="hidden" name="_next" value="https://ibrahim-mohamed45.github.io/Thank-you-page/" />
               <input type="text" name="name" placeholder="Name" required />
               <input type="email" name="email" placeholder="Email" required />
               <textarea
