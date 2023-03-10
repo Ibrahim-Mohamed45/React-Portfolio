@@ -2,7 +2,7 @@
 
 ## Description
 
-This is my professional portfolio build with React, styled with CSS and Bootstrap. The Project Gallery is generated dynamically from a projects.json file. The Contact section has links to all my socials and ways to contact me, and a contact form managed through FORMSUBMIT.
+This is my professional portfolio build with React, styled with CSS and Bootstrap. The project gallery is generated dynamically from a projects.json file. The contact section has links to all my socials and ways to contact me, and a contact form managed through FormSubmit.
 
 ### Built with:
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
