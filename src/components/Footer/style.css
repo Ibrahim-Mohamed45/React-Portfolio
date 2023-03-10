@@ -1,0 +1,22 @@
+.footer {
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+.footer ::before {
+  position: static;
+}
+
+.github {
+  font-size: 24px;
+  transition: transform 0.2s ease-in-out;
+  padding-left: 10px;
+  background-color: transparent !important;
+}
+
+.github:hover {
+  transform: rotate(360deg) scale(1.5);
+}
