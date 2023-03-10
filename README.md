@@ -44,7 +44,7 @@ The live website can be found here: <a href="https://ibrahim-mohamed45.github.io
 
 
 The live website looks like this:
-<img src="#" alt="Image of what the website should look like.">
+<img src="public\My-Portfolio-ss.png" alt="Image of what the website should look like.">
 
 ## Questions
 Contact me if you have any questions!
